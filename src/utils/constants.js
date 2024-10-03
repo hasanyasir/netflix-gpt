@@ -3,3 +3,15 @@ export const LOGO =
 
 export const USER_AVATAR =
   "https://avatars.githubusercontent.com/u/33377461?s=48&v=4";
+
+export const API_OPTIONS = {
+  method: "GET",
+  headers: {
+    accept: "application/json",
+    Authorization:
+      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlN2NjODA4MDY1MjRiMWVkNzM1ZDRmMTVlZGZmY2RlZCIsIm5iZiI6MTcyNzU1MDU4My40MDEyMzYsInN1YiI6IjY2Zjg1MjYxMmM0YmRjOWRiMDVmNDFkYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.xqEt8zPJDAj_aFKA6Hh6NsCrhFTPDwahuGb64_KAhTA",
+  },
+};
+
+export const nowPlayingUrl =
+  "https://api.themoviedb.org/3/movie/now_playing?page=1";

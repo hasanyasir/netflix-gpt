@@ -48,9 +48,13 @@ const Header = () => {
     <div className="absolute w-full px-8 py-2 bg-gradient-to-b from-black z-10 flex justify-between">
       <img className="w-44" src={LOGO} alt="logo"></img>
       {user && (
-        <div className="flex">
-          <img className="w-8 my-4" src={user?.photoURL} alt="user-photo"></img>
-          <label className="w-12 m-4 text-white font-bold justify-center">
+        <div className="flex justify-between ">
+          {/* <img
+            className="w-10 h-8 my-4"
+            src={user?.photoURL}
+            alt="user-photo"
+          ></img> */}
+          <label className="w-12 mx-2 my-4 py-4 text-white font-bold justify-center">
             {user?.displayName}
           </label>
           <button className="text-white font-bold p-4" onClick={handleLogout}>
